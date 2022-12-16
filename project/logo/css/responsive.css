@@ -1,0 +1,53 @@
+@media screen and (max-width:1000px) {
+    header {
+        height: auto;
+        width: 100vw;
+       
+    
+    }
+
+    nav {
+        flex-direction: column;
+
+    }
+    body {
+        max-width: 100%;
+       
+    }
+    .container {
+        max-width: 100%;
+        overflow-x: hidden;
+        
+    }
+    .cards{
+        overflow:scroll;
+    }
+
+    .slider{
+        height: 21vh;
+         
+    }
+    .card-item img{
+        width: 145px;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 9px 0;
+    }
+
+    nav ul {
+        justify-content: center;
+        height: 25px;
+    }
+    .serch input {
+       margin: 0 20px 0 140px;
+       padding: 0 6px 0 12px;
+      
+     } 
+
+    .search {
+        justify-content: center;
+    }
+
+}
